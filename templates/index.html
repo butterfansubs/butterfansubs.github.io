@@ -1,0 +1,9 @@
+{% extends "includes/base.html" %}
+
+{% block header %}
+{{ section.title }}
+{% endblock header %}
+
+{% block content %}
+{{ section.content | safe}}
+{% endblock content %}

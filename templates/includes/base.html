@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{%block title %}{% endblock title %}</title>
+{% include "includes/favicon.html" %}
+</head>
+<body>
+<h1>{% block header %}{% endblock header %}</h1>
+{% block content %}{% endblock content %}
+</body>
+</html>
